@@ -1,38 +1,36 @@
 [
 	{
-		"name": "Aliens",
-		"leaderName": "Zyxxyz",
-		"adjective": ["alien"],
-		"startBias": ["Snow"],
-		"preferredVictoryType": "Scientific",
-		
-		"startIntroPart1": "We come in peace!",
-		"startIntroPart2": "This is an overpowered joke nation just as an example for the mods feature. Set Phasers to Obliterate!!",
-		
-		"declaringWar": "Resistance is futile! Prepare to be assimilated!",
-		"attacked": "You want to play? Very funny!",
-		"defeated": "How is it possible that those Apes hurt us? The galactic senate will take care of them.",
-		"introduction": "As superior galactic entities, you are not worthy of our attention.",
-		
-		"neutralHello": "How are you doing?",
-		"neutralLetsHearIt": ["Go on.","What do you say?","You may begin."],
-		"neutralNo": ["We absolutely refuse.","No!","I refuse."],
-		"neutralYes": ["Very good.","Of course, yes.","That is very good."],
+		"name": "Konohagakure",
+		"leaderName": "Hashirama",
+		"adjective": ["Konohas"],
+		"startBias": ["Grassland"],
+		"preferredVictoryType": "Diplomatic",
+		"startIntroPart1": "Established by Hashirama Senju and Madara Uchiha after the Warring States Period, Konoha became the first hidden village and model for all others. Its founding birthed the modern ninja system, replacing clan warfare with collective defense.",
+		"uniqueText": " Its strength lies not in walls or weapons, but in generations of shinobi who turned a dream of peace into reality through sacrifice, forgiveness, and undying hope.",
+		"declaringWar": "Whenever you live, there will always be war. ",
+		"defeated": "Remember to protect the people that are precious to you.",
+		"attacked": "To know what is right and choose to ignore it is the act of a coward.",
+		"hateHello": "I'll Deal With You Later",
+		"tradeRequest": "In the future… I dream of a time when all shinobi will cooperate with each other.",
 
-		"hateHello": "What do you want now?",
-		"hateLetsHearIt": ["Speak!","What do you say?","Go on."],
-		"hateNo": ["That is not possible!","We are not agreeing to that!","I beg your pardon?"],
-		"hateYes": ["That is fine.","That is good enough.","Very well..."],
+		"startIntroPart1": "Not yet",
+		"startIntroPart2": "Not yet",
+		"introduction": "Not yet",
 		
-		"afterPeace": "Very well, all that fighting was getting boring anyway.",
-		"tradeRequest": "We bestow you the honor of this trade offer.",
+		"neutralLetsHearIt": ["Not yet"],
+		"neutralNo": ["Not yet"],
+		"neutralYes": ["Not yet"],
+
+		"hateLetsHearIt": ["Not yet"],
+		"hateNo": ["Not yet"],
+		"hateYes": ["Not yet"],
+		
+		"afterPeace": "Not yet",
 
 		"outerColor": [16,16,16],
 		"innerColor": [255,200,200],
-		"unique": "MANIFEST_DESTINY",
-		"cities": ["The Hive","Q'Throczan","Q'Chovex","Q'Imphet","Q'Omphead","Q'Grecoks","Q'Vrelzieks","Q'Vronens","Q'Aerlae",
-			"Q'Phulnoith","Q'Creved","Q'Xirqen","Q'Gax","Q'Threqals","Q'Bhilmuk","Q'Mazea","Q'Zomirs","Q'Drorkrex","Q'Honkrath",
-			"Q'Zulgra","Q'Vahars","Q'Crindith","Q'Raavraes","Q'Bhoknais","Qho'Qru","Q'Dateatz","Q'Elnad","Q'Izien","Qol'Ell",
+		"unique": "[+2] Movement <for [All] units>","[+60]% Strength <for [All] units> <during a Golden Age>",
+		"cities": ["Senju", "Uchiha", "Sarutobi", "Akimichi", "Hyuga", "Nara", "Yamanaka", "Inuzuka", "Aburame", "Lee","Qho'Qru","Q'Dateatz","Q'Elnad","Q'Izien","Qol'Ell",
 			"Q'Dhihien","Q'Naquiel","Q'Ugneon","Q'Straquks","Q'Nulptr","Q'Ohfahl"]
 	}
 ]
