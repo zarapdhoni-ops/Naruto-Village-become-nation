@@ -27,8 +27,8 @@
 		
 		"afterPeace": "Not yet",
 
-		"outerColor": [16,16,16],
-		"innerColor": [255,200,200],
+		"outerColor": [205,0,0],
+		"innerColor": [205,200,200],
 		"unique": "[+2] Movement <for [All] units>","[+60]% Strength <for [All] units> <during a Golden Age>",
 		"cities": ["Senju", "Uchiha", "Sarutobi", "Akimichi", "Hyuga", "Nara", "Yamanaka", "Inuzuka", "Aburame", "Lee","Qho'Qru","Q'Dateatz","Q'Elnad","Q'Izien","Qol'Ell",
 			"Q'Dhihien","Q'Naquiel","Q'Ugneon","Q'Straquks","Q'Nulptr","Q'Ohfahl"]
