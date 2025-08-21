@@ -2,7 +2,7 @@
 	{
 		"name": "Konohagakure",
 		"leaderName": "Hashirama",
-		"adjective": ["Konohas"],
+		"adjective": ["Konohas","Forest"],
 		"startBias": ["Grassland"],
 		"preferredVictoryType": "Diplomatic",
 		"startIntroPart1": "Established by Hashirama Senju and Madara Uchiha after the Warring States Period, Konoha became the first hidden village and model for all others. Its founding birthed the modern ninja system, replacing clan warfare with collective defense.",
@@ -10,26 +10,109 @@
 		"declaringWar": "Whenever you live, there will always be war. ",
 		"defeated": "Remember to protect the people that are precious to you.",
 		"attacked": "To know what is right and choose to ignore it is the act of a coward.",
+		"introduction": "Is that you?",
+		"neutralHello": "Yo",
 		"hateHello": "I'll Deal With You Later",
 		"tradeRequest": "In the future… I dream of a time when all shinobi will cooperate with each other.",
+		"outerColor": [205, 0, 0],
+		"innerColor": [205, 205, 205],
+		"favoredReligion": "Buddhism",
+	"uniques": ["Konoha","Ninja Village","[+67]% Golden Age length","[+60]% Strength <for [All] units> <during a Golden Age>"],
 
-		"startIntroPart1": "Not yet",
-		"startIntroPart2": "Not yet",
-		"introduction": "Not yet",
-		
-		"neutralLetsHearIt": ["Not yet"],
-		"neutralNo": ["Not yet"],
-		"neutralYes": ["Not yet"],
+		"cities": ["Senju", "Uchiha", "Sarutobi", "Akimichi", "Hyuga", "Nara", "Yamanaka", "Inuzuka", "Aburame", "Lee"]
+	},
+	{
+		"name": "Konoha New",
+		"CivFilter": "Konoha",	
+		"uniqueName": "Root",
+		"leaderName": "Danzo",
+		"adjective": ["Root"],
+		"startBias": ["Grassland", "Avoid [Snow]"],
+		"preferredVictoryType": "Domination",
+		"uniqueText": "The Konoha Root is known for its extensive network of spies, informants, and operatives who gather information and carry out missions that are often too sensitive or dangerous for regular ninja teams.",
+		"startIntroPart1": "a branch of Konohagakure's Anbu training subdivision. It was disbanded after the death of its founder, Danzō Shimura.",
+		"declaringWar": "Self-sacrifice is a ninja's duty.",
+		"defeated": "Hiruzen… it looks like it's my turn next… but I… never did become Hokage",
+		"attacked": "This world could not function on ideals and pleasantries. It's thanks to people like him that peace has been maintained.",
+		"introduction": "what do you think of me? What am I to you…?",
+		"neutralHello": "Hey, Hiruzen…",
+		"hateHello": "Emotions lead one to hate… and hate leads one to conflict and war",
+		"tradeRequest": "You cannot compete with just one power. We must master various techniques and use those powers to unite the shinobi world.",
+		"outerColor": [55, 0, 0],
+		"innerColor": [255, 5, 5],
+		"favoredReligion": "Shinto",
+	"uniques": ["Konoha","Ninja Village","Can spend Gold to annex or puppet a City-State that has been your Ally for [1] turns","City-State territory always counts as friendly territory"],
 
-		"hateLetsHearIt": ["Not yet"],
-		"hateNo": ["Not yet"],
-		"hateYes": ["Not yet"],
-		
-		"afterPeace": "Not yet",
+		"cities": ["Shimura", "Sarutobi", "Akimichi", "Hyuga", "Nara", "Yamanaka", "Inuzuka", "Aburame", "Sai"]
+	},
+	{
+		"name": "Kumogakure",
+		"uniqueName": "Scientist Team",
+		"leaderName": "Raikage",
+		"adjective": ["Kumonin"],
+		"startBias": ["Tundra","Snow"],
+		"preferredVictoryType": "Scientific",
+		"outerColor": [255, 255, 0],
+		"innerColor": [115, 115, 25],
+		"favoredReligion": "Taoism",
+	"uniques": ["Ninja Village","Earn [70]% of killed [Military] unit's [Cost] as [Science]","[+20]% Strength <for [Melee] units>"],
 
-		"outerColor": [205,0,0],
-		"innerColor": [205,200,200],
-		"unique": ["[+2] Movement <for [All] units>","[+60]% Strength <for [All] units> <during a Golden Age>"],
-		"cities": ["Senju", "Uchiha", "Sarutobi", "Akimichi", "Hyuga", "Nara", "Yamanaka", "Inuzuka", "Aburame", "Lee",]
-	}
+		"cities": ["Kumogakure"]
+	},
+		{
+		"name": "Sunagakure",
+		"uniqueName": "Natural Selection",
+		"leaderName": "Gaara",
+		"adjective": ["Sunanin"],
+		"startBias": ["Desert","Avoid [Forest]","Gold ore","Incense"],
+		"preferredVictoryType": "Cultural",
+		"outerColor": [5, 155, 0],
+		"innerColor": [5, 5, 25],
+		"favoredReligion": "Zoroastrianism",
+		"uniques": ["Ninja Village","[+20]% Strength <for [Land] units>","[+70]% maintenance costs <for [Land] units>","Allied City-States provide [Food] equal to [20]% of what they produce for themselves","[-50]% unhappiness from the number of cities", "[+30]% Unhappiness from [Population] [in all cities]"],
+
+		"cities": ["Sunagakure"]
+	},
+		{
+		"name": "Otogakure",
+		"uniqueName": "Pragmatis Village",
+		"leaderName": "Orochimaru",
+		"adjective": ["Missing-Nin"],
+		"startBias": ["Plains"],
+		"preferredVictoryType": "Scientific",
+		"outerColor": [68, 0, 60],
+		"innerColor": [225, 5, 225],
+		"favoredReligion": "Tengriism",
+	"uniques": ["Ninja Village","When defeating a [All] unit, earn [10] Gold and recruit it <with [50]% chance>"],
+
+		"cities": ["Otogakure"]
+	},
+		{
+		"name": "Iwagakure",
+		"uniqueName": "Thousand Army",
+		"leaderName": "Tsucikage",
+		"adjective": ["Iwanin"],
+		"startBias": ["Hill","Avoid [Forest]","Stone","Marble"],
+		"preferredVictoryType": "Neutral",
+		"outerColor": [255, 115, 0],
+		"innerColor": [35, 5, 5],
+		"favoredReligion": "Confucianism",
+	"uniques": ["Ninja Village","[-1] Movement <for [Melee] units>","[+2 Food, +2 Production] from every [Strategic resource]","[-80]% maintenance costs <for [Land] units>", "[-20]% Strength <when attacking><for [Melee] units>","Gifts of Gold to City-States generate [10]% more Influence"],
+
+		"cities": ["Iwagakure"]
+	},	
+	{
+		"name": "Kirigakure",
+		"uniqueName": "Bloodmist",
+		"leaderName": "Mizukage",
+		"adjective": ["Kirinin"],
+		"startBias": ["Coast","Ocean","Avoid [Snow]"],
+		"preferredVictoryType": "Domination",
+		"outerColor": [5, 5, 190],
+		"innerColor": [255, 255, 255],
+		"favoredReligion": "Zoroastrianism",
+	"uniques": ["Ninja Village","New [All] units start with [45] XP [in all cities]","[-20]% Strength <for [Land] units>","[+30]% Strength <when attacking><for [Water] units>","Enables embarkation for land units <starting from the [Ancient era]> <Suppress warning [*contains a conditional on a unit movement unique*]>","[+1 Food, +1 Production] from [Water] tiles [in all cities]"],
+
+		"cities": ["Kirigakure"]
+	},
 ]
