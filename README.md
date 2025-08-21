@@ -9,7 +9,7 @@ Immerse yourself in the world of Naruto as you lead one of the great hidden vill
 
 ## Overview
 
-This mod transforms the landscape of Civilization V into the elemental nations. Choose your village and guide it to victory through military might, scientific advancement, cultural influence, or diplomatic cunning. Every civilization is designed to feel distinct, reflecting the philosophies and specialties of their leaders and history.
+This mod transforms the landscape of UnCiv into the elemental nations. Choose your village and guide it to victory through military might, scientific advancement, cultural influence, or diplomatic cunning. Every civilization is designed to feel distinct, reflecting the philosophies and specialties of their leaders and history.
 
 ---
 
@@ -92,7 +92,7 @@ This mod transforms the landscape of Civilization V into the elemental nations. 
 
 *   Created by: [Karmageddon/zarapdhoni-ops]
 *   Naruto is a property of Masashi Kishimoto/Shueisha.
-*   This is a fan-made modification for Civilization V and is not for commercial use.
+*   This is a fan-made modification for Unciv and is not for commercial use.
 *   Balance feedback and bug reports are welcome!
 
 **Lead your village, master your unique arts, and become the greatest Kage the world has ever known!**
