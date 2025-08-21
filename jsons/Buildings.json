@@ -21,5 +21,156 @@
 		"happiness": 2,
 		"uniques": ["40% of food is carried over after a new citizen is born"],
 		"requiredTech": "Engineering"
-	}
+	},
+	//Arabia
+		{
+        "name": "Academy Military",
+        "isNationalWonder": true,
+		"requiredTech": "Bronze Working"
+		"requiredBuilding": "Shinobi Supply Depot",
+        "uniques": [
+            "Only available <for [Ninja Village] Civilizations>",
+			"Gain a free [Barracks] [in this city]"
+			"[+2] Movement <for [Ninja Village] units>",
+			"[+30]% Strength <when attacking><for [Ninja Village] units>",
+			"[+15]% Strength <when defending><for [Ninja Village] units>",
+			"Destroyed when the city is captured",
+        ],
+    },
+	{
+		"name": "Shinobi Supply Depot",
+		"replaces": "Granary",
+		"uniqueTo": "Ninja Village",
+		"food": 4,
+		"maintenance": 1,
+		"hurryCostModifier": 55,
+		"uniques": [
+			"Empire enters golden age",
+			"[+1 Production] per [2] population [in this city]",
+			"[+10]% [Production] <during a Golden Age> <for [Ninja Village] Civilizations>",
+			"[+10]% [Food] <during a Golden Age> <for [Ninja Village] Civilizations>"]
+			"requiredTech": "Pottery"
+		},
+	{
+        "name": "Hokage Rock",
+        "isNationalWonder": true,
+        "science": 1,
+        "happiness": 3,
+        "faith": 1,
+        "culture": 3,
+        "cityStrength": 2,
+        "cityHealth": 20,
+        "cost": 40,
+        "hurryCostModifier": 40,
+		"requiredBuilding": "Shinobi Supply Depot",
+        "uniques": [
+            "Only available <for [Konoha] Civilizations>",
+        ],
+    },
+    {
+        "name": "Will of Fire",
+		"isNationalWonder": true,
+        "culture": 3,
+        "faith": 3,        
+		"cityStrength": 10,
+        "cityHealth": 10,
+        "cost": 95,
+		"requiredBuilding": "Hokage Rock",
+        "uniqueTo": "Konohagakure",
+        "uniques": [
+            "Free [Great Artist]  appears <after turn number [1]> ","New [Military] units start with [10] XP [in this city]",
+            "Destroyed when the city is captured"
+        ]
+    },    
+	{
+        "name": "Root Anbu",
+		"isNationalWonder": true,
+        "culture": 1,		
+		"cityStrength": 10,
+        "cost": 95,
+		"requiredBuilding": "Hokage Rock",
+        "uniqueTo": "Konoha New",
+        "uniques": [
+            "New [Military] units start with [10] XP [in this city]",
+            "Destroyed when the city is captured",
+			"[+3] Sight <for [All] units>"
+        ]
+    },
+	
+	//Kumogakure
+	//Aerial Fortress A floating command center armed with energy cannons — symbolizing Kumo's sky-high ambition and cutting-edge ninja tech.
+		{
+        "name": "Aerial Fortress",
+		"isNationalWonder": true,
+		"science": 7,
+		"culture": 1,
+		"cityStrength": 10,
+		"cityHealth": 25,
+        "cost": 395,
+		"maintenance": 3,
+		"requiredBuilding": "University",
+        "uniqueTo": "Kumogakure",
+        "uniques": [
+            "New [Military] units start with [10] XP [in this city]",
+		"[+10]% Strength <for [All] units> "],
+    },
+	//Iwagakure 
+	//The Stone Pillars of Ōnoki def culture
+		{
+        "name": "The Stone Pillars of Onoki",
+		"isNationalWonder": true,
+		"culture": 3,
+        "happiness": 2,
+        "cityStrength": 14,
+        "cityHealth": 300,
+        "cost": 95,
+		"requiredBuilding": "Shinobi Supply Depot",
+		"requiredNearbyImprovedResources": ["Marble", "Stone"],
+        "uniqueTo": "Iwagakure",
+        "uniques": [
+            "[+140]% Strength <when defending> <for [All] units>"
+        ]
+    },
+	//Otogakure
+	//Northern Laboratory scien
+		{
+        "name": "Northern Laboratory",
+		"isNationalWonder": true,
+		"science": 9,
+        "cost": 95,
+		"maintenance": 3,
+        "uniqueTo": "Otogakure",
+        "uniques": [
+			"New [Military] units start with [10] XP [in this city]","[+1] Sight <for [All] units>"
+        ]
+    },
+	{
+        "name": "Curse Seal",
+		"isNationalWonder": true,
+        "cost": 95,
+		"requiredBuilding": "Northern Laboratory",
+        "uniqueTo": "Otogakure",
+        "uniques": [
+			"[+25]% Strength <when attacking><for [All] units>","Destroyed when the city is captured","[-10]% Strength <when defending> <for [All] units>",
+        ]
+    },
+	//Sunagakure 
+	//Puppet Master's Vault culture scie
+			{
+        "name": "Puppet Master's Vault",
+		"isNationalWonder": true,
+		"cost": 300,
+        "culture": 5,
+        "cityStrength": 12,
+        "cityHealth": 300,
+		"hurryCostModifier": 25,
+		"requiredTech": "Bronze Working",
+		"requiredBuilding": "Barracks",
+        "uniqueTo": "Sunagakure",
+        "uniques": [
+            "New [Military] units start with [20] XP [in this city]",
+            "Free [Ninja (Spesial Jounin)] appears <after turn number [41]>",
+			"[+1] Sight <for [All] units>"
+        ]
+    },
 ]
